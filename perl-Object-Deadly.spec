@@ -1,6 +1,6 @@
 Name:           perl-Object-Deadly
 Version:        0.09
-Release:        14%{?dist}
+Release:        15%{?dist}
 Summary:        Perl module providing an object that dies whenever examined
 Group:          Development/Libraries
 License:        GPL+ or Artistic
@@ -45,6 +45,9 @@ make test
 %{_mandir}/man3/*.3*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.09-15
+- Mass rebuild 2013-12-27
+
 * Wed Oct 24 2012 Petr Pisar <ppisar@redhat.com> - 0.09-14
 - Modernize spec file
 
